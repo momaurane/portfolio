@@ -2,7 +2,42 @@
 
 > AI-powered thumbnail generation and iteration lab for YouTube creators. Paste reference images, generate variations with Gemini, iterate with canvas tools, and score thumbnails against 8 visual dimensions.
 
-![Screenshot](./docs/screenshot.png)
+## Screenshots
+
+### Home — Video Projects
+![Home](./docs/thumbnail-studio/01-home-projects.png)
+
+Each video gets its own workspace with thumbnail count and iteration history.
+
+### Editor — Blueprint + Gallery + Video Details
+![Editor](./docs/thumbnail-studio/02-editor-blueprint-gallery.png)
+
+Full workspace: blueprint canvas on the left, generated gallery on the right. Video details pulled automatically from the YouTube URL.
+
+### Blueprint — Layer Detection
+![Blueprint](./docs/thumbnail-studio/04-blueprint-layer-detection.png)
+
+The blueprint decomposes a reference thumbnail into layers — background, subject, object, text, cue. Each layer is editable.
+
+### Properties Panel — Subject Control
+![Properties](./docs/thumbnail-studio/05-properties-panel.png)
+
+Fine-grained control per element: framing, scale, color, emotion, pose, action, censorship level. These feed directly into the generation prompt.
+
+### Controls — Model Selection & Generation
+![Controls](./docs/thumbnail-studio/06-controls-generate.png)
+
+Reference images, aspect ratio, resolution, and model picker (NanBan Pro). Generate single or batch iterations.
+
+### Gallery — Generated Iterations
+![Gallery](./docs/thumbnail-studio/07-gallery-iterations.png)
+
+10 AI-generated thumbnail variations from a single blueprint. Each scored and comparable side-by-side.
+
+### Iteration Detail
+![Detail](./docs/thumbnail-studio/08-iteration-detail.png)
+
+---
 
 ## Why This Exists
 

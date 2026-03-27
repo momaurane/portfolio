@@ -39,6 +39,20 @@ Reference images, aspect ratio, resolution, and model picker (NanBan Pro). Gener
 
 ---
 
+## Try It
+
+**Live app:** [thumbnailstudio.netlify.app](https://thumbnailstudio.netlify.app)
+
+The app is free to use but runs on your own API keys. After signing in, go to Settings and add:
+
+1. **Gemini API key** — Go to [Google AI Studio](https://aistudio.google.com/apikey) and create a key. Used for image generation (Gemini 2.0) and vision-based CTR scoring. Free tier is generous.
+
+2. **YouTube Data API v3 key** (optional) — Go to [Google Cloud Console](https://console.cloud.google.com/apis/credentials), create a project, enable the YouTube Data API v3, and generate an API key. Only needed if you want to auto-pull video details from a YouTube URL.
+
+Your keys are encrypted client-side (AES-256-GCM) before storage. They never touch the server unencrypted.
+
+---
+
 ## Why This Exists
 
 A good thumbnail is the difference between 50 views and 5,000 views. But creating dozens of variations to find the winner is slow—and most creators can't articulate *why* one thumbnail works better than another.

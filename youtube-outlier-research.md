@@ -40,6 +40,20 @@ Data-backed content ideas generated from the patterns found across all rounds.
 
 ---
 
+## Try It
+
+**Live app:** [youtube-outlier-research.netlify.app](https://youtube-outlier-research.netlify.app)
+
+The app is free to use but runs on your own API keys. After signing in, go to Settings and add:
+
+1. **YouTube Data API v3 key** — Go to [Google Cloud Console](https://console.cloud.google.com/apis/credentials), create a project, enable the YouTube Data API v3, and generate an API key. Free tier gives you 10,000 quota units/day. You can add up to 8 keys for higher throughput.
+
+2. **Gemini API key** — Go to [Google AI Studio](https://aistudio.google.com/apikey) and create a key. Gemini 2.5 Flash is used for seed query generation and thumbnail vision analysis. Free tier is generous.
+
+Your keys are encrypted client-side (AES-256-GCM) before storage. They never touch the server unencrypted.
+
+---
+
 ## Why This Exists
 
 YouTube's success formula is hidden in the outliers — videos that perform 2x+ better than the channel average. Most creators chase trending topics without understanding *why* certain videos work. This tool was built in 3 days as an internal research pipeline before creating content.

@@ -65,35 +65,6 @@ User selects best version, saves to project
 - **Graceful fallback to previous version**: If image generation fails, users can retry or revert to a previous version.
 - **Per-user project isolation**: JWT payload contains user ID. All queries filter by `user_id`. One user can't see another's projects.
 
-## Getting Started
-
-```bash
-# Clone the repo
-git clone https://github.com/mohamedyaz/thumbnail-studio.git
-cd thumbnail-studio
-
-# Install dependencies
-npm install
-
-# Create .env file with:
-VITE_API_BASE=http://localhost:8888
-VITE_GEMINI_API_KEY=your_gemini_key
-VITE_JWT_SECRET=your_jwt_secret
-
-# Start local development
-npm run dev
-
-# Build for production
-npm run build
-```
-
-### Environment Variables
-
-- `VITE_API_BASE`: Netlify Functions endpoint
-- `VITE_GEMINI_API_KEY`: Google Gemini API key for image generation & vision analysis
-- `VITE_JWT_SECRET`: Secret for signing/verifying JWT tokens
-- `DATABASE_URL`: Neon PostgreSQL connection string
-
 ## Project Structure
 
 ```
@@ -136,6 +107,6 @@ thumbnail-studio/
 
 This tool runs my real thumbnail iteration process. Built out of frustration with tools that optimize for aesthetics instead of clicks.
 
-- [YouTube](https://youtube.com/@momaurane)
+- [YouTube](https://youtube.com/@mohamed_yaz)
 - [LinkedIn](https://linkedin.com/in/momaurane)
 - [GitHub](https://github.com/momaurane)

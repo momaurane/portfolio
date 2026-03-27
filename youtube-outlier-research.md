@@ -66,37 +66,6 @@ Deliver top outliers with strategy insights
 - **Graceful API failure**: If Gemini is slow or quota is exhausted, the UI queues the search and retries with exponential backoff.
 - **Search result caching**: Recent searches are cached in IndexedDB for offline access and to reduce redundant API calls.
 
-## Getting Started
-
-```bash
-# Clone the repo
-git clone https://github.com/mohamedyaz/youtube-outlier-research.git
-cd youtube-outlier-research
-
-# Install dependencies
-npm install
-
-# Create .env file with:
-VITE_API_BASE=http://localhost:8888
-VITE_YOUTUBE_API_KEYS=key1,key2,key3  # comma-separated YouTube API keys
-VITE_GEMINI_API_KEY=your_gemini_key
-VITE_RESEND_API_KEY=your_resend_key
-
-# Start local development
-npm run dev
-
-# Build for production
-npm run build
-```
-
-### Environment Variables
-
-- `VITE_API_BASE`: Netlify Functions endpoint (e.g., `/.netlify/functions`)
-- `VITE_YOUTUBE_API_KEYS`: Comma-separated YouTube Data API keys (8 max recommended)
-- `VITE_GEMINI_API_KEY`: Google Gemini API key for query generation
-- `VITE_RESEND_API_KEY`: Resend email API key for magic-link auth
-- `DATABASE_URL`: Neon PostgreSQL connection string (for Netlify Functions)
-
 ## Project Structure
 
 ```
@@ -134,6 +103,6 @@ youtube-outlier-research/
 
 This tool runs my actual content pipeline. It's not a side project, it's infrastructure.
 
-- [YouTube](https://youtube.com/@momaurane)
+- [YouTube](https://youtube.com/@mohamed_yaz)
 - [LinkedIn](https://linkedin.com/in/momaurane)
 - [GitHub](https://github.com/momaurane)

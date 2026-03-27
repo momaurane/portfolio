@@ -77,47 +77,6 @@ User previews changes, decides to apply
 - **Version history immutability**: All thumbnail versions saved in Neon. Users can revert changes or compare iterations.
 - **IndexedDB offline caching**: Generated images stay local until synced. Network failures don't lose work-in-progress.
 
-## Getting Started
-
-```bash
-# Clone the repo
-git clone https://github.com/mohamedyaz/packaging-reviver.git
-cd packaging-reviver
-
-# Install dependencies
-npm install
-
-# Create .env file with:
-VITE_API_BASE=http://localhost:3000
-PUBLIC_API_BASE=http://localhost:3000
-
-# Server-side env variables (.env.local or deployment platform):
-DATABASE_URL=postgresql://...
-GEMINI_API_KEY=your_gemini_key
-YOUTUBE_API_KEYS=key1,key2,key3
-RESEND_API_KEY=your_resend_key
-JWT_SECRET=your_secret
-
-# Start local development
-npm run dev
-
-# Build for production
-npm run build
-npm run preview
-```
-
-### Environment Variables
-
-**Client-side** (VITE_):
-- `VITE_API_BASE`: Your SvelteKit server base URL
-
-**Server-side** (Netlify/deployment env):
-- `DATABASE_URL`: Neon PostgreSQL connection string
-- `GEMINI_API_KEY`: Google Gemini API key
-- `YOUTUBE_API_KEYS`: Comma-separated YouTube Data API keys
-- `RESEND_API_KEY`: Resend email API key
-- `JWT_SECRET`: Secret for signing JWT tokens
-
 ## Project Structure
 
 ```
@@ -187,6 +146,6 @@ packaging-reviver/
 
 Packaging Reviver started as a private workflow. It's now the system I use to evaluate whether a video concept is packaged well enough to click on.
 
-- [YouTube](https://youtube.com/@momaurane)
+- [YouTube](https://youtube.com/@mohamed_yaz)
 - [LinkedIn](https://linkedin.com/in/momaurane)
 - [GitHub](https://github.com/momaurane)

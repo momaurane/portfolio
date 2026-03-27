@@ -12,4 +12,4 @@ These projects are closed-source. Some have real commercial potential and I'm no
 
 ---
 
-[YouTube](https://youtube.com/@momaurane) · [LinkedIn](https://linkedin.com/in/momaurane) · [GitHub](https://github.com/momaurane)
+[YouTube](https://youtube.com/@mohamed_yaz) · [LinkedIn](https://linkedin.com/in/momaurane) · [GitHub](https://github.com/momaurane)

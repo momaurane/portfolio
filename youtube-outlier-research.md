@@ -2,7 +2,43 @@
 
 > Multi-round snowball research that finds what actually works on YouTube. Paste a topic, let the algorithm hunt for statistical outliers, then iterate through refined queries to surface winning content patterns.
 
-![Screenshot](./docs/screenshot.png)
+## Screenshots
+
+### Home — Saved Research Sessions
+![Home](./docs/youtube-outlier-research/01-home-saved-sessions.png)
+
+### Round 1 — AI-Generated Seed Queries
+![Seed Queries](./docs/youtube-outlier-research/02-seed-queries-generated.png)
+
+Queries are editable — remove irrelevant ones, expand, or narrow before searching.
+
+### Round 1 — Video Results Grid
+![Round 1 Results](./docs/youtube-outlier-research/06-round1-results-grid.png)
+
+![Round 1 Full Results](./docs/youtube-outlier-research/07-round1-full-results.png)
+
+### Round 1 Intelligence — Refined Queries for Round 2
+![Intelligence](./docs/youtube-outlier-research/08-round1-intelligence-refined-queries.png)
+
+The algorithm analyzes Round 1 outliers and generates vertical (deeper) and horizontal (broader) queries for the next round.
+
+### Round 2 — Refined Results
+![Round 2](./docs/youtube-outlier-research/09-round2-results.png)
+
+### Viral Vectors Analysis
+![Viral Vectors](./docs/youtube-outlier-research/10-viral-vectors-analysis.png)
+
+Scores each outlier on packaging, retention engine, and premise clarity — then distills what separates winners from losers.
+
+### Synthesis — Title Formulas, Thumbnail Patterns, Video Ideas
+![Synthesis](./docs/youtube-outlier-research/11-synthesis-formulas-video-ideas.png)
+
+Data-backed content ideas generated from the patterns found across all rounds.
+
+### Export — PDF & HTML
+![Export](./docs/youtube-outlier-research/12-export-pdf-html.png)
+
+---
 
 ## Why This Exists
 

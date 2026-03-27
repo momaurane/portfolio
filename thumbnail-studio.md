@@ -69,32 +69,10 @@ User selects best version, saves to project
 
 ```
 thumbnail-studio/
-├── src/
-│   ├── index.html
-│   ├── main.js              # App entry point
-│   ├── components/
-│   │   ├── ProjectList.js   # Browse saved projects
-│   │   ├── ReferenceUpload.js # Image upload
-│   │   ├── GeneratePanel.js  # Gemini generation controls
-│   │   ├── Canvas.js        # Konva-based annotation tool
-│   │   ├── ComparisonView.js # Side-by-side + scoring
-│   │   └── CritiquePanel.js  # 8-dimension feedback
-│   ├── lib/
-│   │   ├── api.js           # Gemini API wrapper
-│   │   ├── indexeddb.js     # Binary caching layer
-│   │   ├── crypto.js        # AES-256-GCM encryption
-│   │   └── scoring.js       # CTR prediction + critique
-│   └── styles/
-│       └── main.css
-├── netlify/functions/
-│   ├── generate.js          # Gemini image generation
-│   ├── critique.js          # Vision scoring + 8-dimension feedback
-│   ├── projects/
-│   │   ├── create.js        # New project
-│   │   ├── list.js          # User's projects
-│   │   └── save.js          # Save version
-│   └── auth/
-│       └── verify.js        # JWT verification
+├── src/               # Vanilla JS SPA — canvas, generation, scoring
+├── netlify/functions/  # Serverless API — auth, generation, critique
+├── schema.sql          # PostgreSQL schema
+└── package.json
 ├── .env.example
 ├── vite.config.js
 ├── package.json

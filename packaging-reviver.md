@@ -81,59 +81,9 @@ User previews changes, decides to apply
 
 ```
 packaging-reviver/
-├── src/
-│   ├── app.html
-│   ├── routes/
-│   │   ├── +page.svelte        # Home / input screen
-│   │   ├── +page.server.js    # Input form action
-│   │   ├── research/
-│   │   │   ├── +page.svelte    # Research results screen
-│   │   │   └── +page.server.js # Snowball search orchestration
-│   │   ├── strategy/
-│   │   │   ├── +page.svelte    # Pattern extraction + Change Dial
-│   │   │   └── +page.server.js # Vision analysis of winners
-│   │   ├── generate/
-│   │   │   ├── +page.svelte    # Gemini generation + local preview
-│   │   │   └── +page.server.js # Image generation API
-│   │   ├── compare/
-│   │   │   ├── +page.svelte    # Side-by-side + CTR scoring
-│   │   │   └── +page.server.js # Vision scoring
-│   │   ├── projects/
-│   │   │   ├── +page.svelte    # Browse saved redesigns
-│   │   │   └── +page.server.js # Project CRUD
-│   │   ├── auth/
-│   │   │   ├── login/
-│   │   │   │   ├── +page.svelte
-│   │   │   │   └── +page.server.js # Magic-link send
-│   │   │   └── verify/
-│   │   │       └── +page.server.js # Token verification
-│   ├── lib/
-│   │   ├── stores/
-│   │   │   ├── user.ts         # Auth state (Svelte 5 rune store)
-│   │   │   ├── research.ts     # Current research
-│   │   │   ├── strategy.ts     # Pattern extraction + Change Dial
-│   │   │   └── thumbnails.ts   # Generated versions
-│   │   ├── api/
-│   │   │   ├── youtube.server.ts
-│   │   │   ├── gemini.server.ts
-│   │   │   └── db.server.ts
-│   │   ├── components/
-│   │   │   ├── ResearchPanel.svelte
-│   │   │   ├── ChangeDial.svelte
-│   │   │   ├── Canvas.svelte
-│   │   │   ├── ComparisonCard.svelte
-│   │   │   └── ProjectCard.svelte
-│   │   ├── utils/
-│   │   │   ├── crypto.ts       # AES-256-GCM
-│   │   │   ├── indexeddb.ts    # Binary caching
-│   │   │   ├── json-repair.ts  # 4-strategy LLM output fix
-│   │   │   └── scoring.ts      # CTR prediction
-│   │   └── types/
-│   │       └── index.ts        # TypeScript interfaces
-│   └── styles/
-│       └── main.css
-├── .env.example
-├── .env.local.example
+├── src/routes/         # SvelteKit pages — research, strategy, generate, compare
+├── src/lib/            # Stores, components, server-side API, utilities
+├── schema.sql          # PostgreSQL schema
 ├── svelte.config.js
 ├── vite.config.js
 ├── package.json

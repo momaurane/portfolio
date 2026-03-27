@@ -70,31 +70,10 @@ Deliver top outliers with strategy insights
 
 ```
 youtube-outlier-research/
-├── src/
-│   ├── index.html
-│   ├── main.js              # App entry point
-│   ├── components/
-│   │   ├── SearchForm.js    # Topic input + research controls
-│   │   ├── ResultsGrid.js   # Outlier display + sorting
-│   │   └── PatternPanel.js  # Extracted strategy insights
-│   ├── lib/
-│   │   ├── api.js           # API wrapper (YouTube, Gemini)
-│   │   ├── crypto.js        # AES-256-GCM encryption
-│   │   ├── quota.js         # YouTube API key rotation logic
-│   │   └── cache.js         # IndexedDB caching
-│   └── styles/
-│       └── main.css
-├── netlify/functions/
-│   ├── search.js            # YouTube API search orchestration
-│   ├── refine.js            # Pattern extraction + query refinement
-│   ├── auth/
-│   │   ├── login.js         # Magic-link send
-│   │   └── verify.js        # Token verification
-│   └── keys.js              # Encrypted key storage
-├── .env.example
-├── vite.config.js
-├── package.json
-└── README.md
+├── src/               # Vanilla JS SPA — components, crypto, caching
+├── netlify/functions/  # Serverless API — auth, search, encryption
+├── schema.sql          # PostgreSQL schema
+└── package.json
 ```
 
 ## About the Author

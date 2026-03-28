@@ -82,7 +82,15 @@ Export as Thumbnail, Mockup, or Before & After.
 
 ## Try It
 
-Packaging Reviver is not publicly deployed yet — it's still in active development and runs locally. If you're interested in testing it or discussing commercial potential, reach out on [LinkedIn](https://linkedin.com/in/momaurane).
+**Live app:** [packaging-reviver.netlify.app](https://packaging-reviver.netlify.app)
+
+The app is free to use but runs on your own API keys. After signing in, go to Settings and add:
+
+1. **Gemini API key** — Go to [Google AI Studio](https://aistudio.google.com/apikey) and create a key. Used for diagnosis, title generation, packaging directions, and thumbnail generation. Free tier is generous.
+
+2. **YouTube Data API v3 key** — Go to [Google Cloud Console](https://console.cloud.google.com/apis/credentials), create a project, enable the YouTube Data API v3, and generate an API key. Used to pull video stats and find outliers. Free tier gives you 10,000 quota units/day.
+
+Your keys are encrypted client-side (AES-256-GCM) before storage. They never touch the server unencrypted.
 
 ---
 

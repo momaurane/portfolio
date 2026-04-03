@@ -8,7 +8,7 @@ These projects are closed-source. Some have real commercial potential and I'm no
 |---------|-------------|--------|
 | [YouTube Outlier Research](./youtube-outlier-research.md) | Multi-round research engine that finds statistically anomalous YouTube videos — 2x+ channel average — and extracts what made them work | Internal tool |
 | [Thumbnail Studio](./thumbnail-studio.md) | AI-powered thumbnail iteration tool with Gemini vision scoring across 8 dimensions | Commercial potential |
-| [Packaging Reviver](./packaging-reviver.md) | SvelteKit app that audits whether a video concept is packaged well enough to click on | Commercial potential |
+| [SecondTake.ai](./secondtakeai.md) | Data-backed video packaging redesign — Snowball research, 3-layer outlier detection, AI thumbnail generation, canvas editor, face swap, and strategy reports | Commercial potential |
 
 ---
 
